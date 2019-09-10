@@ -70,7 +70,8 @@ body{
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 1);
   width: 45%;
-  height: 15vh;
+  font-size: 20px;
+  height: 17vh;
   padding: 10px;
   margin: 10px;
   color: white;
