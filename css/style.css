@@ -84,3 +84,13 @@ footer{
   background-color: #00cba9;
   box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.50);
 }
+footer .poltekes{
+  position: absolute;
+  background: #f4f1e9;
+  height: auto;
+  border-radius: 0px 50px 50px 0px;
+  width: 110px;
+  padding-left: 10px;
+  color: #00cba9;
+  z-index: 99;
+}
