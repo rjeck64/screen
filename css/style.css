@@ -21,8 +21,13 @@ body{
   height: 7vh;
 }
 .middle .jam{
+  color: white;
   margin-left: 20px;
+  padding-right: 100px;
+  border-radius: 5px 0px 0px 5px;
   position: absolute;
+  background: #00cba9;
+  z-index: -101;
 }
 .jam .kotak{
   float: left;
@@ -35,14 +40,13 @@ body{
   border: 3px solid #00cba9;
   margin: 0px 10px 10px 190px;
   float: left;
-  width: 27%;
+  width: 21%;
   height: 65vh;
 }
 .middle .back{
   position: absolute;
   border: 1px solid white;
-  background-color: white;
-  opacity: 0.8;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.6));
   filter: blur(4px);
   /* margin: 40px 10px 10px 20px; */
   z-index: -100;
